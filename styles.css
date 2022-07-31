@@ -1,0 +1,68 @@
+.imgblock {
+  position: relative;
+  display: inline-block;
+}
+
+.imgblock img {
+  height: 210px;
+  width: 400px;
+}
+
+.imgblock span {
+  color: #fff;
+  border-radius: 2px;
+  position: absolute;
+  right: 0;
+  bottom: 75px;
+  font-size: 18px;
+  padding: 0px 53px;
+}
+
+img.scale {
+  -webkit-transition: all 0.15s ease;
+          transition: all 0.15s ease;
+}
+img.scale:hover {
+  -webkit-transform: scale(1.1); 
+          transform: scale(1.1);               
+}
+
+img.iposition{
+  position: relative;
+  left: 0px;
+  top: 5px;
+  -webkit-transition: all 0.15s ease;
+          transition: all 0.1s ease;
+}
+
+img.yposition{
+  position: relative;
+  left: 0px;
+  bottom: 10px;
+  -webkit-transition: all 0.15s ease;
+          transition: all 0.15s ease;
+}
+
+img.iposition:hover {
+  -webkit-transform: scale(1.1); 
+          transform: scale(1.1);               
+}
+
+img.yposition:hover {
+  -webkit-transform: scale(1.1); 
+          transform: scale(1.1);               
+}
+
+.left {
+  position: relative;
+  top: 360px;
+  left: 0px;
+}
+
+.leftbot{
+  position: relative;
+  top: 352px;
+  left: 0px;
+}
+
+
